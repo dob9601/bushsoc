@@ -1,0 +1,60 @@
+:root {
+  --bg-header: #185201;
+  --fg-header: #84A98C;
+  --fg-body: #01172F;
+  --bg-body: #CAD2C5;
+}
+
+body {
+  margin: 0;
+  color: var(--fg-body);
+  background-color: var(--bg-body);
+  font-family: 'Syne Mono', monospace;
+  font-size: 1.2em;
+}
+
+#content {
+  margin: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Staatliches', sans-serif;  
+}
+
+#navbar {
+  background-color: var(--bg-header);
+  color: var(--fg-header);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  width: 150px;
+  margin-right: 10px;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+#footer {
+  background-color: var(--bg-header);
+  box-shadow: 0 50vh 0 50vh var(--bg-header);
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.social-icon {
+  width: 50px;
+}
+
